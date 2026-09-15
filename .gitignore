@@ -1,0 +1,21 @@
+# allowlist 방식 — 전부 무시한 뒤 자작 패키지만 되살린다.
+# 제외 대상이 297MB 중 273MB 라 denylist 로는 언젠가 새어나간다.
+/*
+!/.gitattributes
+!/.gitignore
+!/.rosinstall
+!/LICENSE-NOTES.md
+!/README.md
+!/src/
+
+/src/*
+!/src/daecar/
+!/src/scalecar/
+!/src/wego/
+!/src/limo_marker/
+!/src/CMakeLists.txt
+
+# 어디에 있든
+**/__pycache__/
+*.py[cod]
+**/.git/

@@ -1,0 +1,18 @@
+# 벤더 ROS 패키지 — 이 저장소에 vendoring 하지 않고 여기서 받아온다.
+#   wstool init src
+#   wstool merge .rosinstall
+#   wstool update
+#
+# 아래 5개는 로컬 중첩 .git 에서 remote 와 커밋 SHA 를 그대로 복원한 것이다.
+- git: {local-name: src/aruco_ros,         uri: 'https://github.com/pal-robotics/aruco_ros.git',      version: 823e1f9}
+- git: {local-name: src/lidar_tracking,    uri: 'https://github.com/LucasWEIchen/lidar_tracking.git', version: c264706}
+- git: {local-name: src/obstacle_detector, uri: 'https://github.com/tysik/obstacle_detector.git',     version: bd59d40}
+- git: {local-name: src/usb_cam,           uri: 'https://github.com/ros-drivers/usb_cam.git',         version: 3ce8ee1}
+- git: {local-name: src/vesc,              uri: 'https://github.com/mit-racecar/vesc.git',            version: 5127d60}
+#
+# 아래 5개는 로컬에 .git 이 없어 upstream 을 추정했다. ⚠️ 사용 전 확인 필요.
+- git: {local-name: src/ar_track_alvar,  uri: 'https://github.com/ros-perception/ar_track_alvar.git',        version: noetic-devel}
+- git: {local-name: src/fiducials,       uri: 'https://github.com/UbiquityRobotics/fiducials.git',           version: noetic-devel}
+- git: {local-name: src/racecar,         uri: 'https://github.com/mit-racecar/racecar.git',                  version: master}
+- git: {local-name: src/razor_imu_9dof,  uri: 'https://github.com/ENSTABretagneRobotics/razor_imu_9dof.git', version: master}
+- git: {local-name: src/rplidar_ros,     uri: 'https://github.com/Slamtec/rplidar_ros.git',                  version: master}
