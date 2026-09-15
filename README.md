@@ -73,16 +73,3 @@ ln -sf /opt/ros/noetic/share/catkin/cmake/toplevel.cmake src/CMakeLists.txt
 
 **3. `package.xml` 의 maintainer 가 `wego@todo.todo` 입니다.**
 교육용 키트의 `catkin_create_pkg` 템플릿 기본값이며 실제 주소가 아닙니다.
-
-## Not in this repository
-
-| 항목 | 크기 | 사유 |
-|---|---|---|
-| `build/`, `devel/` | 130 MB | catkin 빌드 산출물 |
-| 벤더 패키지 10개 | 53 MB | 라이선스 분리. `.rosinstall` 참조 |
-| 중첩 `.git` 5개 | 29 MB | 벤더 저장소의 자체 이력 |
-| `src/calibration/*.png` | 9 MB | 체커보드 촬영 원본 34장 |
-| `src/y_list*.txt` | 1.1 MB | roslaunch 콘솔 덤프. 로컬 호스트명·경로 노출 |
-| `DAP_2024_autorace.zip` | 90 MB | 이 폴더 자체의 중복 아카이브 (저장소 루트 밖) |
-
-전부 로컬에 원본 그대로 남아 있습니다.
