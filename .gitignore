@@ -10,10 +10,12 @@
 
 /src/*
 !/src/daecar/
-!/src/scalecar/
 !/src/wego/
 !/src/limo_marker/
 !/src/CMakeLists.txt
+
+# scalecar 는 daecar 의 구버전이라 저장소에서 제외한다 (로컬에는 남아 있음)
+/src/scalecar/
 
 # 어디에 있든
 **/__pycache__/

@@ -17,7 +17,6 @@ Co-Show 2024 Autorace 1/10 Scale 자율주행 경진대회 출전 코드입니�
 | 패키지 | 역할 |
 |---|---|
 | **`daecar`** | 2024년 재작업본, 주력. 진입점은 `scripts/main_20.py` |
-| `scalecar` | 이전 세대. 프레임 폭 640px 기준(`middle_lane=320`)이고 `daecar` 는 320px(`middle_lane=160`). 출처 보존용으로 남깁니다 |
 | `wego` | 텔레옵 + rviz 센서 뷰 |
 | `limo_marker` | AR 마커 실습 8단계 (구독 → 정지 → 거리 → 각도 → ID → 추종 → 통합) |
 
