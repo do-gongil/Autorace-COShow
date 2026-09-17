@@ -6,9 +6,9 @@ Co-Show 2024 Autorace 1/10 Scale 자율주행 경진대회 출전 코드입니�
 | 항목 | 값 |
 |---|---|
 | 플랫폼 | MIT racecar-v2 (F1TENTH 계열) |
-| 구동 | VESC 브러시리스 모터 컨트롤러, `AckermannDriveStamped` |
+| 구동 | `AckermannDriveStamped` |
 | LiDAR | Slamtec RPLIDAR (2D, `/scan`) |
-| 카메라 | USB 카메라 640×480, **어안(equidistant) 왜곡 보정** |
+| 카메라 | USB 카메라 640×480, **어안(equidistant) Calibration** |
 | IMU | Razor 9-DoF |
 | 온보드 PC | Intel NUC11, ROS 1 Noetic |
 
